@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+    
+    <div id="div1">
+   <br>
+    <h3>Details Form</h3>
+    <hr>
+        <div id="div2">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="number">Mob. No : </label>
+            <input type="number" name="number" id="number">
+        </div>
+        <div>
+            <label for="email">Email Id : </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <!-- <label for="submit">Submit </label> -->
+            <input type="button" name="name" id="btn" value="Submit" onclick="AddRow()">
+        </div>
+        
+</form>
+<hr>
+	
+	<!-- 	<table border="3">
+			<thead>
+				<tr>
+					<th>Name :</th>
+					<td><input type="text" name="name" id="name"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Mob. No : </th>
+					<td><input type="number" name="no" id="number"></td>
+				</tr>
+				<tr>
+					<th>Email Id :</th>
+					<td><input type="email" name="email" id="email"></td>
+				</tr>
+				<tr id="btna">
+                    <th>Submit</th>
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table> -->
+
+        
+	 <table  id="show">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Mob. No</th>
+					<th>Email Id</th>
+				</tr>
+			</thead>
+		</table> 
+</div>
+
+	
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+h3{
+    text-align:center;
+}
+div{
+	margin-top: 50px;
+	text-align: center;
+	background: rgb(135, 170, 235);
+	color: #fff;
+}
+#div1 
+{
+  margin:30px 370px;
+  height:700px;
+}
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+#btn {
+    background-color: orange;
+   padding:10px 40px;
+   font-size:20px;
+}
+body
+{
+   
+}
